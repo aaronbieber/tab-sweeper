@@ -1,0 +1,35 @@
+{
+  "name": "Tab Sweeper",
+  "description": "I like a clean window, Danny!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "icons": {
+    "16": "tab_sweeper_16.png",
+    "48": "tab_sweeper_48.png",
+    "128": "tab_sweeper_128.png"
+  },
+  "action": {
+    "default_title": "I like a clean window, Danny!"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "group-all": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G"
+      },
+      "description": "Group all tabs in the current window."
+    },
+    "group-others": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      },
+      "description": "Group all but the active tab in the current window."
+    }
+  }
+}
