@@ -4,6 +4,13 @@ Tab Sweeper is a Chrome extension that "sweeps" all of your tabs into a new
 group automatically, clearing the bar so you can start opening even more tabs,
 dramatically amplifying your ability to sink into browser debt.
 
+## Installation
+
+Follow the [instructions for loading unpacked extensions][lu] on the Chrome
+Developers website.
+
+[lu]: https://developer.chrome.com/docs/extensions/mv3/getstarted/
+
 ## Usage
 
 There are two ways to use Tab Sweeper.
